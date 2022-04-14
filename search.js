@@ -20,14 +20,14 @@ $(function() {
 		$(this).animate({ width: "150px" }, 200);
 	});
 	
-	// Search... dissapears when field is clicked
+	//Search dissapears when field is clicked
 	$('.search').focus(function() {
 	  if ($(this).val() === 'Search...') {
 	    return $(this).val('');
 	  }
 	});
 	
-	// Search... reappears when field is not in focus anymore
+	// Search reappears when field is not in focus anymore
     $('.search').blur(function() {
       if ($(this).val() === '') {
         return $(this).val('Search...');
