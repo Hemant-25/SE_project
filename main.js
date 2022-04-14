@@ -1,3 +1,4 @@
+// java script for login form and signup form 
 function setFormMessage(formElement, type, message) {
     const messageElement = formElement.querySelector(".form__message");
 
@@ -35,7 +36,7 @@ document.addEventListener("DOMContentLoaded", () => {
     loginForm.addEventListener("submit", e => {
         e.preventDefault();
 
-        // Perform your AJAX/Fetch login
+        //Perform your AJAX/Fetch login
 
         setFormMessage(loginForm, "error", "Invalid username/password combination");
     });
