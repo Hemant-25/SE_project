@@ -1,0 +1,135 @@
+.heading{
+    position: absolute;
+    left: 37%;
+    top: 20%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: wheat;
+    font-size:50px;
+}
+.dsabutton{
+    position: absolute;
+    left: 30%;
+    top: 60%;
+    background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 8px;
+}
+.mlbutton{
+    position: absolute;
+    left: 30%;
+    top: 70%;
+    background-color: goldenrod; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 8px;
+}
+.cpbutton{
+    position: absolute;
+    left: 30%;
+    top: 80%;
+    background-color: red; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 8px;
+}
+.webdbutton{
+    position: absolute;
+    left: 60%;
+    top: 65%;
+    background-color: black; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 8px;
+}
+.adbutton{
+    position: absolute;
+    left: 60%;
+    top: 75%;
+    background-color: blue; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 8px;
+}
+.gfg{position: absolute;
+    left: 60%;
+    top: 55%;
+    background-color: blue; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 8px;
+
+}
+.cwh{
+    position: absolute;
+    left: 60%;
+    top: 45%;
+    background-color: black; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 8px;
+}
+.udm{
+    position: absolute;
+    left: 30%;
+    top: 45%;
+    background-color: red; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 8px;
+}
+.csra{
+    position: absolute;
+    left: 30%;
+    top: 55%;
+    background-color: goldenrod; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 8px;
+}
+
