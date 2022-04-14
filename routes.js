@@ -4,11 +4,9 @@ const multer = require('multer');
 const path = require('path');
 const fs = require('fs');
 const mime = require('mime');
-// eslint-disable-next-line new-cap
 const router = express.Router();
 
 const DIR = path.join(__dirname, '../uploads/');
-// console.log(path.join(__dirname, '/uploads/'));
 const storage = multer.diskStorage({
     destination: (req, file, cb) => {
         cb(null, DIR);
@@ -53,18 +51,11 @@ router.get('/getAllFiles', (req, res) => {
             name: file,
             type: mime.getType(file),
         });
-        // stats = fs.statSync(path.join(DIR, file));
-        // filesize = stats['size'];
-        // res.write('200', {
-        //     'Content-Type': mime.getType(file),
-        //     'Content-Length': filesize,
-        //     'Content-Disposition': `attachment; filename=${file}`,
-        // });
+     
     });
-    // eslint-disable-next-line no-invalid-this
+  
     res.send(objArray);
-    // res.write(file, 'binary');
-    // res.send({ data: JSON.stringify(objArray) });
+ 
 });
 
 module.exports = router;
