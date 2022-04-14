@@ -15,6 +15,14 @@ body {
     font-size: 18px;
     background: url(./background.jpg);
     background-size: cover;
+    background-color: antiquewhite;
+}
+.heading{
+    position: absolute;
+    left: 35%;
+    top: 8%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #cc3333;
 }
 
 .container {
